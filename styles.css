@@ -1,0 +1,38 @@
+html {
+    background-color: grey
+}
+body {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    font-family: "Helvetica", sans-serif;
+}
+p, h1 {
+    padding: 5px
+}
+main {
+    overflow: auto
+}
+/* normal cells */
+div{
+    background-color: black;
+    width: 18px;
+    height: 18px;
+    border: 1px solid black;
+    float: left;
+}
+/* walker color */
+.active{
+    background-color: red;
+}
+
+/* Make the cells for the track blue */
+ #cell0-1, #cell1-1, #cell1-2, #cell1-3, #cell2-3, #cell3-3, #cell4-0, #cell4-1, #cell4-2, #cell4-3, #cell5-0, #cell6-0, #cell7-0, #cell8-0, #cell9-0, #cell10-0, #cell11-0, #cell12-0, #cell12-1, #cell12-2, #cell13-2, #cell14-2, #cell15-2, #cell16-2, #cell17-2, #cell18-2, #cell18-1, #cell18-0, #cell19-0, #cell20-0, #cell21-0, #cell22-0, #cell22-1, #cell22-2, #cell22-3, #cell22-4, #cell22-5, #cell21-5, #cell20-5, #cell19-5, #cell18-5, #cell17-5, #cell16-5, #cell15-5, #cell14-5, #cell13-5, #cell12-5, #cell11-5, #cell10-5, #cell9-5, #cell8-5, #cell8-4, #cell8-3, #cell8-2, #cell7-2, #cell6-2, #cell6-3, #cell6-4, #cell6-5, #cell5-5, #cell4-5, #cell3-5, #cell2-5, #cell2-6, #cell2-7, #cell2-8, #cell2-9, #cell2-10, #cell2-11, #cell3-11, #cell4-11, #cell5-11, #cell6-11, #cell7-11, #cell8-11, #cell9-11, #cell10-11, #cell11-11, #cell11-10, #cell11-9, #cell12-9, #cell13-9, #cell14-9, #cell15-9, #cell16-9, #cell17-9, #cell18-9, #cell19-9, #cell19-10, #cell19-11, #cell19-12, #cell19-13, #cell19-14, #cell19-15, #cell19-16, #cell20-16, #cell21-16, #cell22-16, #cell23-16, #cell23-17, #cell23-18, #cell23-19, #cell23-20, #cell23-21, #cell23-22, #cell22-22, #cell21-22, #cell20-22, #cell19-22, #cell18-22, #cell17-22, #cell16-22, #cell15-22, #cell15-21, #cell15-20, #cell15-19, #cell15-18, #cell15-17, #cell14-17, #cell13-17, #cell12-17, #cell11-17, #cell11-16, #cell11-15, #cell11-14, #cell10-14, #cell9-14, #cell8-14, #cell7-14, #cell6-14, #cell5-14, #cell4-14, #cell3-14, #cell3-15, #cell3-16, #cell3-17, #cell3-18, #cell3-19, #cell3-20, #cell3-21, #cell3-22, #cell4-22, #cell5-22, #cell6-22, #cell7-22, #cell7-21, #cell6-21, #cell6-20, #cell5-20, #cell5-19, #cell5-18, #cell5-17, #cell5-16, #cell6-16, #cell7-16, #cell8-16, #cell8-17, #cell8-18, #cell8-19, #cell9-19, #cell10-19, #cell11-19, #cell11-20, #cell11-21, #cell11-22, #cell11-23, #cell11-24, #cell11-25, #cell12-25, #cell13-25, #cell14-25, #cell15-25, #cell16-25, #cell17-25, #cell18-25, #cell19-25, #cell20-25, #cell21-25, #cell22-25, #cell22-26, #cell22-27, #cell22-28, #cell22-29, #cell22-30, #cell21-30, #cell20-30, #cell19-30, #cell18-30, #cell17-30, #cell17-29, #cell17-28, #cell16-28, #cell15-28, #cell14-28, #cell13-28, #cell12-28, #cell11-28, #cell10-28, #cell9-28, #cell9-27, #cell9-26, #cell9-25, #cell9-24, #cell8-24, #cell7-24, #cell6-24, #cell5-24, #cell4-24, #cell4-25, #cell4-26, #cell4-27, #cell4-28, #cell3-28, #cell2-28, #cell1-28, #cell1-29, #cell1-30, #cell1-31, #cell1-32, #cell1-33, #cell2-33, #cell3-33, #cell4-33, #cell5-33, #cell6-33, #cell7-33, #cell8-33, #cell9-33, #cell10-33, #cell11-33, #cell11-32, #cell11-31, #cell11-30, #cell10-31, #cell10-30, #cell9-31, #cell9-30, #cell8-31, #cell8-30, #cell8-29, #cell7-29, #cell6-29, #cell5-29, #cell5-30, #cell5-31, #cell6-31, #cell7-31, #cell12-31, #cell12-30, #cell13-31, #cell14-31, #cell15-31, #cell15-32, #cell16-32, #cell17-32, #cell18-32, #cell19-32, #cell20-32, #cell21-32, #cell22-32, #cell23-32, #cell23-33, #cell23-34, #cell23-35, #cell23-36, #cell22-36, #cell21-36, #cell20-36, #cell19-36, #cell18-36, #cell17-36, #cell16-36, #cell15-36, #cell14-36, #cell13-36, #cell12-36, #cell11-36, #cell10-36, #cell9-36, #cell8-36, #cell7-36, #cell6-36, #cell5-36, #cell4-36, #cell3-36, #cell2-36, #cell2-38, #cell3-38, #cell4-38, #cell5-38, #cell6-38, #cell7-38, #cell8-38, #cell9-38, #cell10-38, #cell11-38, #cell12-38, #cell13-38, #cell14-38, #cell15-38, #cell16-38, #cell17-38, #cell18-38, #cell19-38, #cell20-38, #cell21-38, #cell22-38, #cell23-38, #cell24-38{
+    background-color: red;
+    border-color: red
+}
+/* end cell */
+#cell24-39{
+    background-color: gold;
+    border-color: gold;
+}
